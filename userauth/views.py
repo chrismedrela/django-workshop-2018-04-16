@@ -2,6 +2,7 @@ from django.contrib.auth.forms import UserCreationForm
 from django.urls import reverse
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
+from django.core.mail import send_mail
 
 
 def register(request, template_name='userauth/register.html', next_page_name='/'):
