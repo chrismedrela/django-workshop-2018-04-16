@@ -1,0 +1,21 @@
+Django==2.0.3
+Fabric==1.14.0
+Jinja2==2.10
+MarkupSafe==1.0
+Pillow==5.0.0
+Pygments==2.2.0
+Sphinx==1.7.2
+coverage==4.5.1
+django-crispy-forms==1.7.2
+django-debug-toolbar==1.9.1
+django-extensions==2.0.6
+docutils==0.14
+ecdsa==0.13
+freezegun==0.3.10
+paramiko==2.4.1
+pycrypto==2.6.1
+python-dateutil==2.7.2
+releases==1.4.1
+six==1.11.0
+-e git+git://github.com/django-tastypie/django-tastypie.git@9879a84850d558d127e8becd0b9de574cf9be103#egg=elasticutils
+# sphinxcontrib-googleanalytics==0.1
